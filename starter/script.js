@@ -21,13 +21,13 @@ function getCountryAndNeighbour(country) {
     const [neighbour] = data.borders;
     if (!neighbour) return;
 
-    // const request2 = new XMLHttpRequest();
-    // request2.open('GET', `https://restcountries.com/v2/alpha/${neighbour}`);
-    // request2.send();
+    const request2 = new XMLHttpRequest();
+    request2.open('GET', `https://restcountries.com/v2/alpha/${neighbour}`);
+    request2.send();
 
-    // request2.addEventListener('load', function () {
-    //   console.log(this.responseText);
-    // });
+    request2.addEventListener('load', function () {
+      console.log(this.responseText);
+    });
   });
 }
 

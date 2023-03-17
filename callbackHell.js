@@ -1,17 +1,3 @@
-// Synchronous programming
-// let a = prompt("What is your name");
-// let b = prompt("What is your age");
-// let c = prompt("What is your fav color");
-// console.log(`${a} is ${b} years old and has ${c} favourite color`);
-
-//Asynchronous programming
-// console.log("Start");
-// setTimeout(() => {
-//   console.log("Hello World");
-// }, 2000);
-// console.log("End");
-
-//callbacks
 function loadScript(src, callback) {
   var script = document.createElement("script");
   script.src = src;
