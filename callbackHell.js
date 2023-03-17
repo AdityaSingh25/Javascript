@@ -21,10 +21,350 @@ const hello = (error, src) => {
   }
   alert("Hello script is loaded with src " + src);
 };
-const goodMorning = () => {
-  alert("Good Morning");
-};
+
 loadScript(
   "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
-  hello
+  function goodMorning(error, src) {
+    if (error) {
+      console.log(error);
+      sendEmergencyMessageToCeo();
+      return;
+    }
+    loadScript(
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+      function goodMorning(error, src) {
+        if (error) {
+          console.log(error);
+          sendEmergencyMessageToCeo();
+          return;
+        }
+        loadScript(
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+          function goodMorning(error, src) {
+            if (error) {
+              console.log(error);
+              sendEmergencyMessageToCeo();
+              return;
+            }
+            loadScript(
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+              function goodMorning(error, src) {
+                if (error) {
+                  console.log(error);
+                  sendEmergencyMessageToCeo();
+                  return;
+                }
+
+                loadScript(
+                  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                  function goodMorning(error, src) {
+                    if (error) {
+                      console.log(error);
+                      sendEmergencyMessageToCeo();
+                      return;
+                    }
+
+                    loadScript(
+                      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                      function goodMorning(error, src) {
+                        if (error) {
+                          console.log(error);
+                          sendEmergencyMessageToCeo();
+                          return;
+                        }
+                        loadScript(
+                          "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                          function goodMorning(error, src) {
+                            if (error) {
+                              console.log(error);
+                              sendEmergencyMessageToCeo();
+                              return;
+                            }
+                            loadScript(
+                              "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                              function goodMorning(error, src) {
+                                if (error) {
+                                  console.log(error);
+                                  sendEmergencyMessageToCeo();
+                                  return;
+                                }
+                                loadScript(
+                                  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                  function goodMorning(error, src) {
+                                    if (error) {
+                                      console.log(error);
+                                      sendEmergencyMessageToCeo();
+                                      return;
+                                    }
+                                    loadScript(
+                                      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                      function goodMorning(error, src) {
+                                        if (error) {
+                                          console.log(error);
+                                          sendEmergencyMessageToCeo();
+                                          return;
+                                        }
+                                        loadScript(
+                                          "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                          function goodMorning(error, src) {
+                                            if (error) {
+                                              console.log(error);
+                                              sendEmergencyMessageToCeo();
+                                              return;
+                                            }
+                                            loadScript(
+                                              "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                              function goodMorning(error, src) {
+                                                if (error) {
+                                                  console.log(error);
+                                                  sendEmergencyMessageToCeo();
+                                                  return;
+                                                }
+                                                loadScript(
+                                                  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                  function goodMorning(
+                                                    error,
+                                                    src
+                                                  ) {
+                                                    if (error) {
+                                                      console.log(error);
+                                                      sendEmergencyMessageToCeo();
+                                                      return;
+                                                    }
+                                                    loadScript(
+                                                      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                      function goodMorning(
+                                                        error,
+                                                        src
+                                                      ) {
+                                                        if (error) {
+                                                          console.log(error);
+                                                          sendEmergencyMessageToCeo();
+                                                          return;
+                                                        }
+                                                        loadScript(
+                                                          "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                          function goodMorning(
+                                                            error,
+                                                            src
+                                                          ) {
+                                                            if (error) {
+                                                              console.log(
+                                                                error
+                                                              );
+                                                              sendEmergencyMessageToCeo();
+                                                              return;
+                                                            }
+                                                            loadScript(
+                                                              "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                              function goodMorning(
+                                                                error,
+                                                                src
+                                                              ) {
+                                                                if (error) {
+                                                                  console.log(
+                                                                    error
+                                                                  );
+                                                                  sendEmergencyMessageToCeo();
+                                                                  return;
+                                                                }
+                                                                loadScript(
+                                                                  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                  function goodMorning(
+                                                                    error,
+                                                                    src
+                                                                  ) {
+                                                                    if (error) {
+                                                                      console.log(
+                                                                        error
+                                                                      );
+                                                                      sendEmergencyMessageToCeo();
+                                                                      return;
+                                                                    }
+                                                                    loadScript(
+                                                                      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                      function goodMorning(
+                                                                        error,
+                                                                        src
+                                                                      ) {
+                                                                        if (
+                                                                          error
+                                                                        ) {
+                                                                          console.log(
+                                                                            error
+                                                                          );
+                                                                          sendEmergencyMessageToCeo();
+                                                                          return;
+                                                                        }
+                                                                        loadScript(
+                                                                          "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                          function goodMorning(
+                                                                            error,
+                                                                            src
+                                                                          ) {
+                                                                            if (
+                                                                              error
+                                                                            ) {
+                                                                              console.log(
+                                                                                error
+                                                                              );
+                                                                              sendEmergencyMessageToCeo();
+                                                                              return;
+                                                                            }
+                                                                            loadScript(
+                                                                              "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                              function goodMorning(
+                                                                                error,
+                                                                                src
+                                                                              ) {
+                                                                                if (
+                                                                                  error
+                                                                                ) {
+                                                                                  console.log(
+                                                                                    error
+                                                                                  );
+                                                                                  sendEmergencyMessageToCeo();
+                                                                                  return;
+                                                                                }
+                                                                                loadScript(
+                                                                                  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                                  function goodMorning(
+                                                                                    error,
+                                                                                    src
+                                                                                  ) {
+                                                                                    if (
+                                                                                      error
+                                                                                    ) {
+                                                                                      console.log(
+                                                                                        error
+                                                                                      );
+                                                                                      sendEmergencyMessageToCeo();
+                                                                                      return;
+                                                                                    }
+                                                                                    loadScript(
+                                                                                      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                                      function goodMorning(
+                                                                                        error,
+                                                                                        src
+                                                                                      ) {
+                                                                                        if (
+                                                                                          error
+                                                                                        ) {
+                                                                                          console.log(
+                                                                                            error
+                                                                                          );
+                                                                                          sendEmergencyMessageToCeo();
+                                                                                          return;
+                                                                                        }
+                                                                                        loadScript(
+                                                                                          "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                                          function goodMorning(
+                                                                                            error,
+                                                                                            src
+                                                                                          ) {
+                                                                                            if (
+                                                                                              error
+                                                                                            ) {
+                                                                                              console.log(
+                                                                                                error
+                                                                                              );
+                                                                                              sendEmergencyMessageToCeo();
+                                                                                              return;
+                                                                                            }
+                                                                                            loadScript(
+                                                                                              "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                                              function goodMorning(
+                                                                                                error,
+                                                                                                src
+                                                                                              ) {
+                                                                                                if (
+                                                                                                  error
+                                                                                                ) {
+                                                                                                  console.log(
+                                                                                                    error
+                                                                                                  );
+                                                                                                  sendEmergencyMessageToCeo();
+                                                                                                  return;
+                                                                                                }
+                                                                                                loadScript(
+                                                                                                  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                                                  function goodMorning(
+                                                                                                    error,
+                                                                                                    src
+                                                                                                  ) {
+                                                                                                    if (
+                                                                                                      error
+                                                                                                    ) {
+                                                                                                      console.log(
+                                                                                                        error
+                                                                                                      );
+                                                                                                      sendEmergencyMessageToCeo();
+                                                                                                      return;
+                                                                                                    }
+                                                                                                    loadScript(
+                                                                                                      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
+                                                                                                      function goodMorning(
+                                                                                                        error,
+                                                                                                        src
+                                                                                                      ) {
+                                                                                                        if (
+                                                                                                          error
+                                                                                                        ) {
+                                                                                                          console.log(
+                                                                                                            error
+                                                                                                          );
+                                                                                                          sendEmergencyMessageToCeo();
+                                                                                                          return;
+                                                                                                        }
+                                                                                                      }
+                                                                                                    );
+                                                                                                  }
+                                                                                                );
+                                                                                              }
+                                                                                            );
+                                                                                          }
+                                                                                        );
+                                                                                      }
+                                                                                    );
+                                                                                  }
+                                                                                );
+                                                                              }
+                                                                            );
+                                                                          }
+                                                                        );
+                                                                      }
+                                                                    );
+                                                                  }
+                                                                );
+                                                              }
+                                                            );
+                                                          }
+                                                        );
+                                                      }
+                                                    );
+                                                  }
+                                                );
+                                              }
+                                            );
+                                          }
+                                        );
+                                      }
+                                    );
+                                  }
+                                );
+                              }
+                            );
+                          }
+                        );
+                      }
+                    );
+                  }
+                );
+              }
+            );
+          }
+        );
+      }
+    );
+  }
 );
