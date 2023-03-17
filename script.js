@@ -104,5 +104,15 @@
 //   console.log("HI");
 // }
 
-
-
+setTimeout(() => {
+  console.log("1 Sec Passed");
+  setTimeout(() => {
+    console.log("2 Sec Passed");
+    setTimeout(() => {
+      console.log("3 Sec Passed");
+      setTimeout(() => {
+        console.log("4 Sec Passed");
+      }, 1000);
+    }, 1000);
+  }, 1000);
+}, 1000);

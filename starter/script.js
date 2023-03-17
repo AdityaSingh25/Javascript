@@ -4,7 +4,8 @@ const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
 ///////////////////////////////////////
-function getCountryInfo(country) {
+function getCountryAndNeighbour(country) {
+  //AJAX call country one
   const request = new XMLHttpRequest();
   request.open('GET', `https://restcountries.com/v2/name/${country}`);
   request.send();
@@ -14,8 +15,24 @@ function getCountryInfo(country) {
     console.log(request.responseText);
     const [data] = JSON.parse(this.responseText);
     console.log(data);
+    renderCountry(data);
 
-    const html = `
+    //Get neighbour country
+    const [neighbour] = data.borders;
+    if (!neighbour) return;
+
+    // const request2 = new XMLHttpRequest();
+    // request2.open('GET', `https://restcountries.com/v2/alpha/${neighbour}`);
+    // request2.send();
+
+    // request2.addEventListener('load', function () {
+    //   console.log(this.responseText);
+    // });
+  });
+}
+
+const renderCountry = function (data) {
+  const html = `
   <article class="country">
   <img class="country__img" src="${data.flag}" />
   <div class="country__data">
@@ -28,10 +45,10 @@ function getCountryInfo(country) {
 </article>
   `;
 
-    countriesContainer.insertAdjacentHTML('beforeend', html);
-    countriesContainer.style.opacity = 1;
-  });
-}
+  countriesContainer.insertAdjacentHTML('beforeend', html);
+  countriesContainer.style.opacity = 1;
+};
 
-getCountryInfo('USA');
-getCountryInfo('china');
+getCountryAndNeighbour('portugal');
+getCountryAndNeighbour('china');
+getCountryAndNeighbour('republic of india');
